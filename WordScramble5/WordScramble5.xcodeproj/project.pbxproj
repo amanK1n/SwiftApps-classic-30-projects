@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		D363E57B2E33E9D500FFB3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D363E55C2E33E9D400FFB3C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D363E5632E33E9D400FFB3C0;
+			remoteInfo = WordScramble5;
+		};
+		D363E5852E33E9D500FFB3C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D363E55C2E33E9D400FFB3C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D363E5632E33E9D400FFB3C0;
+			remoteInfo = WordScramble5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D363E5642E33E9D400FFB3C0 /* WordScramble5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D363E57A2E33E9D500FFB3C0 /* WordScramble5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScramble5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D363E5842E33E9D500FFB3C0 /* WordScramble5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordScramble5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D363E58C2E33E9D500FFB3C0 /* Exceptions for "WordScramble5" folder in "WordScramble5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D363E5632E33E9D400FFB3C0 /* WordScramble5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D363E5662E33E9D400FFB3C0 /* WordScramble5 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D363E58C2E33E9D500FFB3C0 /* Exceptions for "WordScramble5" folder in "WordScramble5" target */,
+			);
+			path = WordScramble5;
+			sourceTree = "<group>";
+		};
+		D363E57D2E33E9D500FFB3C0 /* WordScramble5Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordScramble5Tests;
+			sourceTree = "<group>";
+		};
+		D363E5872E33E9D500FFB3C0 /* WordScramble5UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = WordScramble5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D363E5612E33E9D400FFB3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5772E33E9D500FFB3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5812E33E9D500FFB3C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D363E55B2E33E9D400FFB3C0 = {
+			isa = PBXGroup;
+			children = (
+				D363E5662E33E9D400FFB3C0 /* WordScramble5 */,
+				D363E57D2E33E9D500FFB3C0 /* WordScramble5Tests */,
+				D363E5872E33E9D500FFB3C0 /* WordScramble5UITests */,
+				D363E5652E33E9D400FFB3C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D363E5652E33E9D400FFB3C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D363E5642E33E9D400FFB3C0 /* WordScramble5.app */,
+				D363E57A2E33E9D500FFB3C0 /* WordScramble5Tests.xctest */,
+				D363E5842E33E9D500FFB3C0 /* WordScramble5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D363E5632E33E9D400FFB3C0 /* WordScramble5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D363E58D2E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5" */;
+			buildPhases = (
+				D363E5602E33E9D400FFB3C0 /* Sources */,
+				D363E5612E33E9D400FFB3C0 /* Frameworks */,
+				D363E5622E33E9D400FFB3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D363E5662E33E9D400FFB3C0 /* WordScramble5 */,
+			);
+			name = WordScramble5;
+			packageProductDependencies = (
+			);
+			productName = WordScramble5;
+			productReference = D363E5642E33E9D400FFB3C0 /* WordScramble5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D363E5792E33E9D500FFB3C0 /* WordScramble5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D363E5922E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5Tests" */;
+			buildPhases = (
+				D363E5762E33E9D500FFB3C0 /* Sources */,
+				D363E5772E33E9D500FFB3C0 /* Frameworks */,
+				D363E5782E33E9D500FFB3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D363E57C2E33E9D500FFB3C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D363E57D2E33E9D500FFB3C0 /* WordScramble5Tests */,
+			);
+			name = WordScramble5Tests;
+			packageProductDependencies = (
+			);
+			productName = WordScramble5Tests;
+			productReference = D363E57A2E33E9D500FFB3C0 /* WordScramble5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D363E5832E33E9D500FFB3C0 /* WordScramble5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D363E5952E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5UITests" */;
+			buildPhases = (
+				D363E5802E33E9D500FFB3C0 /* Sources */,
+				D363E5812E33E9D500FFB3C0 /* Frameworks */,
+				D363E5822E33E9D500FFB3C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D363E5862E33E9D500FFB3C0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D363E5872E33E9D500FFB3C0 /* WordScramble5UITests */,
+			);
+			name = WordScramble5UITests;
+			packageProductDependencies = (
+			);
+			productName = WordScramble5UITests;
+			productReference = D363E5842E33E9D500FFB3C0 /* WordScramble5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D363E55C2E33E9D400FFB3C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D363E5632E33E9D400FFB3C0 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D363E5792E33E9D500FFB3C0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D363E5632E33E9D400FFB3C0;
+					};
+					D363E5832E33E9D500FFB3C0 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D363E5632E33E9D400FFB3C0;
+					};
+				};
+			};
+			buildConfigurationList = D363E55F2E33E9D400FFB3C0 /* Build configuration list for PBXProject "WordScramble5" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D363E55B2E33E9D400FFB3C0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D363E5652E33E9D400FFB3C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D363E5632E33E9D400FFB3C0 /* WordScramble5 */,
+				D363E5792E33E9D500FFB3C0 /* WordScramble5Tests */,
+				D363E5832E33E9D500FFB3C0 /* WordScramble5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D363E5622E33E9D400FFB3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5782E33E9D500FFB3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5822E33E9D500FFB3C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D363E5602E33E9D400FFB3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5762E33E9D500FFB3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D363E5802E33E9D500FFB3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D363E57C2E33E9D500FFB3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D363E5632E33E9D400FFB3C0 /* WordScramble5 */;
+			targetProxy = D363E57B2E33E9D500FFB3C0 /* PBXContainerItemProxy */;
+		};
+		D363E5862E33E9D500FFB3C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D363E5632E33E9D400FFB3C0 /* WordScramble5 */;
+			targetProxy = D363E5852E33E9D500FFB3C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D363E58E2E33E9D500FFB3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordScramble5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D363E58F2E33E9D500FFB3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WordScramble5/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D363E5902E33E9D500FFB3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D363E5912E33E9D500FFB3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D363E5932E33E9D500FFB3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble5";
+			};
+			name = Debug;
+		};
+		D363E5942E33E9D500FFB3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordScramble5.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WordScramble5";
+			};
+			name = Release;
+		};
+		D363E5962E33E9D500FFB3C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordScramble5;
+			};
+			name = Debug;
+		};
+		D363E5972E33E9D500FFB3C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comviva.com.WordScramble5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordScramble5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D363E55F2E33E9D400FFB3C0 /* Build configuration list for PBXProject "WordScramble5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363E5902E33E9D500FFB3C0 /* Debug */,
+				D363E5912E33E9D500FFB3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D363E58D2E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363E58E2E33E9D500FFB3C0 /* Debug */,
+				D363E58F2E33E9D500FFB3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D363E5922E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363E5932E33E9D500FFB3C0 /* Debug */,
+				D363E5942E33E9D500FFB3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D363E5952E33E9D500FFB3C0 /* Build configuration list for PBXNativeTarget "WordScramble5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D363E5962E33E9D500FFB3C0 /* Debug */,
+				D363E5972E33E9D500FFB3C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D363E55C2E33E9D400FFB3C0 /* Project object */;
+}
