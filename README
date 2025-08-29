@@ -1,4 +1,89 @@
-Storm Viewer
-Added 3 projects
-Added web viewer
-https://github.com/baoozuma/Head-First-All-Series-PDF/blob/main/Head%20First%20Agile.pdf
+
+# 30 Swift Projects – Inspired by 100 Days of Swift (UIKit)
+
+This repository contains **30 Swift projects** inspired by Paul Hudson’s [100 Days of Swift (UIKit)](https://www.hackingwithswift.com/100).  
+Each project introduces new iOS development concepts, UIKit components, or Apple frameworks, helping you build a strong foundation in Swift and iOS development.
+
+---
+
+## 🚀 Projects Overview
+
+| Day / Project | Title                  | Key Concepts & Learning Goals                                                                                                                |
+| ------------- | ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| **1**         | Storm Viewer           | FileManager, `resourcePath`, `contentsOfDirectory`, `UITableViewController`, `UITableViewCell`, `UIImageView`, view controller instantiation |
+| **2**         | Guess the Flag         | Layout design, `CALayer`, `IBAction`, randomization                                                                                          |
+| **3**         | Share Image App        | `UIBarButtonItem`, `UIActivityViewController`, sharing images                                                                                |
+| **4**         | Web Browser            | `WKWebView`, `UIAlertController` action sheets, `UIToolbar`, `UIProgressView`                                                                |
+| **5**         | Word Scramble          | Reading from disk, `UIAlertController`, `IndexPath`                                                                                          |
+| **6**         | Auto Layout            | Auto Layout basics, constraints, Visual Format Language                                                                                      |
+| **7**         | Whitehouse Petitions   | `UITabBarController`, JSON handling, networking, data decoding with `Codable`                                                                |
+| **8**         | 7 Swifty Words         | Programmatic UI, text alignment, layout margins, custom fonts                                                                                |
+| **9**         | Grand Central Dispatch | GCD, threading, `perform(_:with:afterDelay:)`                                                                                                |
+| **10**        | Names to Faces         | `UICollectionView`, `UIImagePickerController`, subclassing `NSObject`                                                                        |
+| **11**        | Pachinko               | `SpriteKit`, nodes, touch handling, physics bodies, `SKAction`, collisions, particle emitters                                                |
+| **12**        | User Defaults          | Using `UserDefaults`, JSON serialization, `NSCoding`, `Codable`                                                                              |
+| **13**        | Instafilter            | Image filtering, Core Image, applying `CIFilter` to photos                                                                                   |
+| **14**        | Whack-a-Penguin        | `SpriteKit`, `SKCropNode`, `SKAction`, randomness, touch handling                                                                            |
+| **15**        | Animation Playground   | UIKit animations, `CGAffineTransform`, `UIView.animate`, spring animations                                                                   |
+| **16**        | Capital Cities         | `MKMapView`, `MKAnnotation`, `CLLocationCoordinate2D`, `UIAlertController`                                                                   |
+| **17**        | Space Race             | `SpriteKit`, scrolling backgrounds, `SKPhysicsContactDelegate`, collision detection                                                          |
+| **18**        | Debugging              | Debugging techniques, `assert()`, breakpoints, `print()`                                                                                     |
+| **19**        | JavaScript Injection   | `WKWebView`, `WKUserScript`, Safari extensions, injecting JavaScript                                                                         |
+| **20**        | Fireworks Night        | `CAEmitterLayer`, particle emitters, Core Animation                                                                                          |
+| **21**        | Local Notifications    | `UNUserNotificationCenter`, scheduling notifications, handling actions                                                                       |
+| **22**        | Detect-a-Beacon        | Core Location, `CLBeaconRegion`, Bluetooth iBeacon detection                                                                                 |
+| **23**        | Swifty Ninja           | `SpriteKit`, slicing with `UIBezierPath`, particle effects, physics                                                                          |
+| **24**        | Swift Strings          | Advanced `String` APIs, substrings, Unicode, performance                                                                                     |
+| **25**        | Selfie Share           | Multipeer Connectivity, sending images/text between devices                                                                                  |
+| **26**        | Marble Maze            | `SpriteKit`, `CMMotionManager`, accelerometer, physics-based gameplay                                                                        |
+| **27**        | Core Graphics          | Drawing with Core Graphics, `UIGraphicsImageRenderer`, blend modes, text drawing                                                             |
+| **28**        | Secret Swift           | Keychain, biometric authentication (`Touch ID` / `Face ID`), secure storage                                                                  |
+| **29**        | Exploding Monkeys      | `SpriteKit`, projectiles, destructible terrain, `SKTexture`                                                                                  |
+| **30**        | Instruments            | Performance tuning with Instruments, memory leaks, Time Profiler                                                                             |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+---
+## 📸 Screenshots
+
+| Day | Project               | Screenshot                                |
+| --- | --------------------- | ----------------------------------------- |
+| 1   | Storm Viewer          | ![Day 1](screenshots/day-1.png)           |
+| 2   | Guess the Flag        | ![Day 2](screenshots/day-2.png)           |
+| 3   | Share Image App       | ![Day 3](screenshots/day-3.png)           |
+| 4   | Web Browser           | ![Day 4](screenshots/day-4.png)           |
+| 5   | Word Scramble         | ![Day 5](screenshots/day-5.png)           |
+| 6   | Auto Layout           | ![Day 6](screenshots/day-6.png)           |
+| 7   | Whitehouse Petitions  | ![Day 7](screenshots/day-7.png)           |
+| 8   | 7 Swifty Words        | ![Day 8](screenshots/day-8.png)           |
+| 9   | GCD Playground        | ![Day 9](screenshots/day-9.png)           |
+| 10  | Names to Faces        | ![Day 10](screenshots/day-10.png)         |
+| 11  | Pachinko              | ![Day 11](screenshots/day-11.png)         |
+| 12  | User Defaults         | ![Day 12](screenshots/day-12.png)         |
+| 13  | Instafilter           | ![Day 13](screenshots/day-13.png)         |
+| 14  | Whack-a-Penguin       | ![Day 14](screenshots/day-14.png)         |
+| 15  | Animation Playground  | ![Day 15](screenshots/day-15.png)         |
+| 16  | Capital Cities        | ![Day 16](screenshots/day-16.png)         |
+| 17  | Space Race            | ![Day 17](screenshots/day-17.png)         |
+| 18  | Debugging             | ![Day 18](screenshots/day-18.png)         |
+| 19  | JavaScript Injection  | ![Day 19](screenshots/day-19.png)         |
+| 20  | Fireworks Night       | ![Day 20](screenshots/day-20.png)         |
+| 21  | Local Notifications   | ![Day 21](screenshots/day-21.png)         |
+| 22  | Detect-a-Beacon       | ![Day 22](screenshots/day-22.png)         |
+| 23  | Swifty Ninja          | ![Day 23](screenshots/day-23.png)         |
+| 24  | Swift Strings         | ![Day 24](screenshots/day-24.png)         |
+| 25  | Selfie Share          | ![Day 25](screenshots/day-25.png)         |
+| 26  | Marble Maze           | ![Day 26](screenshots/day-26.png)         |
+| 27  | Core Graphics         | ![Day 27](screenshots/day-27.png)         |
+| 28  | Secret Swift          | ![Day 28](screenshots/day-28.png)         |
+| 29  | Exploding Monkeys     | ![Day 29](screenshots/day-29.png)         |
+| 30  | Instruments           | ![Day 30](screenshots/day-30.png)         |
+---------------------------------------------------------------------------
+
+
+## 📂 How to Use
+
+1. Clone this repository:
+   ```bash
+   git clone <your-repo-url>
+
+
